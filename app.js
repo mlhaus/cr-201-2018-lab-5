@@ -106,11 +106,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-
+  var product01 = multiply(multArr[0], multArr[1])[0];
+  var product012 = multiply(product01, multArr[2])[0];
+  var theString = 'The numbers ' + multArr + ' have a product of ' + product012 + '.';
+  return [product012, theString];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray([2, 3, 4]);
+testMultiplyArray([2, 3, 4]);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
