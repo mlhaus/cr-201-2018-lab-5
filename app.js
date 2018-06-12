@@ -135,10 +135,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyAnyArray(dynamicArray) {
-
+  var theProduct = 1;
+  for(var i = 0; i < dynamicArray.length; i++){
+    theProduct = multiply(theProduct, dynamicArray[i])[0];
+  }
+  var theString = 'The numbers ' + dynamicArray + ' have a product of ' + theProduct + '.';
+  return [theProduct, theString];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyAnyArray([1,2,3,4,5]);
+testMultiplyAnyArray([1,2,3,4,5]);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
