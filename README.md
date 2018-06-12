@@ -11,4 +11,4 @@ In this lab I learned how to fork and clone a GitHub repo, and then create solut
 
 
 ### GitHub Page
-Please checkout my project live on [GitHub Pages](https://mlhaus.github.io/cr-201-2018-lab-5/).
+Please checkout my project live on [GitHub Pages](https://mlhaus.github.io/cr-201-2018-lab-5/). Be sure to open the Developer Tools console.
